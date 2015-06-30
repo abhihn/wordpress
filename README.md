@@ -1,7 +1,7 @@
 # wordpress
-installing Wordpress on Ubuntu 14.04
+## installing Wordpress on Ubuntu 14.04
 
-Follow the Below commands to install wordpress on Ubuntu 14.04
+### Follow the Below commands to install wordpress on Ubuntu 14.04
 
 sudo apt-get update
 
@@ -38,7 +38,7 @@ cp wp-config-sample.php wp-config.php
 
 vi wp-config.php
 
----------------------------------------------------------------------------------------
+```````````````````````````````````````````````````````````````````````````
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'wordpress');
@@ -48,7 +48,7 @@ define('DB_USER', 'wordpressuser');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'password');
-----------------------------------------------------------------------------------------
+````````````````````````````````````````````````````````````````````````````
 
 sudo rsync -avP ~/wordpress/ /var/www/html/
 
@@ -67,7 +67,8 @@ sudo chown -R :www-data /var/www/html/wp-content/uploads
 sudo service apache2 restart
 
 visit the site in the IP
-http://server_domain_name_or_IP
+
+(http://server_domain_name_or_IP)
 
 
 
