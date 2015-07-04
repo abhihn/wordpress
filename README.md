@@ -68,7 +68,7 @@ sudo service apache2 restart
 
 visit the site in the IP
 
-[http://server_domain_name_or_IP]
+[http://server_domain_name_or_IP] (yourhostname)
 
 
 
